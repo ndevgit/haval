@@ -1,0 +1,43 @@
+.promo {
+  background-image: url(../../../images/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 756px;
+  padding: 59px 0;
+}
+
+.promo__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.promo__title-block {
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.5) 38.72%,
+    rgba(0, 0, 0, 0.5) 61.63%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  backdrop-filter: blur(5.300000190734863px);
+  padding: 24px 137px;
+  margin-bottom: 24px;
+  width: 100%;
+}
+
+.promo__section-title {
+  color: $white;
+  text-align: center;
+  font-weight: 500;
+  max-width: 836px;
+}
+
+.title-decorate {
+  color: $cyan;
+}
+
+.promo__timer {
+  background-color: $gray;
+}

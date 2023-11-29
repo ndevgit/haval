@@ -1,0 +1,177 @@
+@media (max-width: 1340px) {
+  .timer__content {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 1024px) {
+  .cards {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-list {
+    gap: 5px;
+  }
+
+  .nav-list__link {
+    font-size: 8px;
+  }
+
+  .header__address-text {
+    font-size: 8px;
+  }
+
+  .header__phone-phone {
+    font-size: 8px;
+  }
+
+  .promo__section-title {
+    font-size: 23px;
+  }
+
+  .title-decorate {
+    font-size: 23px;
+  }
+
+  .button {
+    font-size: 10px;
+  }
+
+  .timer__content {
+    gap: 33px;
+  }
+
+  .timer-block {
+    display: none;
+  }
+
+  .timer-block__mobile {
+    display: block;
+  }
+}
+
+@media (max-width: 425px) {
+  .nav-list {
+    gap: 5px;
+  }
+
+  .nav-list__link {
+    font-size: 4px;
+  }
+
+  .header__address-text {
+    font-size: 4px;
+  }
+
+  .header__phone-phone {
+    font-size: 4px;
+  }
+
+  .promo__section-title {
+    font-size: 13px;
+    line-height: 25px;
+  }
+
+  .timer__section-title {
+    font-size: 10px;
+    line-height: 25px;
+  }
+
+  .title-decorate {
+    font-size: 13px;
+  }
+
+  .button {
+    font-size: 10px;
+    max-width: 274px;
+  }
+
+  .header__content-top {
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .cards__item-title {
+    font-size: 13px;
+  }
+
+  .cards__item-subtitle {
+    font-size: 13px;
+  }
+
+  .cards__item {
+    max-width: 340px;
+    padding: 30px;
+  }
+
+  .cards__button {
+    font-size: 8px;
+  }
+
+  .header__content-bottom {
+    flex-direction: column;
+  }
+
+  .nav-list__link {
+    font-size: 8px;
+  }
+
+  .nav-list {
+    display: none;
+  }
+
+  .message-vidget {
+    left: -7px;
+    width: 11%;
+  }
+
+  .burger {
+    display: block;
+  }
+
+  .promo__title-block {
+    padding-left: 37px;
+    padding-right: 37px;
+  }
+}
+
+@media (max-width: 375px) {
+  .header-logo__logo:last-child {
+    margin: 0;
+  }
+
+  .cards__item {
+    max-width: 255px;
+    padding: 10px;
+  }
+
+  .cards__item-title {
+    font-size: 10px;
+  }
+
+  .cards__item-subtitle {
+    font-size: 10px;
+  }
+
+  .cards__item-decorate {
+    font-size: 10px;
+  }
+
+  .features__item-feature {
+    font-size: 10px;
+  }
+
+  .header__address-text {
+    font-size: 10px;
+  }
+
+  .header__phone-phone {
+    font-size: 10px;
+  }
+
+  .header-logo {
+    flex-direction: column;
+  }
+}
