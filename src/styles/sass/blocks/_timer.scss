@@ -7,11 +7,11 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 113px;
 }
 
 .timer__content-left {
   position: relative;
+  width: 50%;
 }
 
 .message-vidget {
@@ -45,8 +45,13 @@
   text-transform: uppercase;
 }
 
+.timer__content-right {
+  width: 50%;
+}
+
 .timer__button {
   max-width: 467px;
+  margin-left: auto;
 }
 
 .timer-block__mobile {
